@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPI - {sC} - Suscribite</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header class="header-flex">
+        <div class="h-logo"><a href="./index.html" rel="noopener noreferrer"><img src="./assets/img/Icon.png" alt="LOGO"></a></div>
+        <p class="h-title">TPI - {sC} - Suscribite</p>
+    </header>
+
+    <main>
+        <form action="" method="get">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido">
+            
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass" id="pass">
+
+            <label for="lector">¿Con qué grupo de lectores se identifica más?</label>
+            <select name="lector" id="lector">
+                <option value="estudiante">Estudiante</option>
+                <option value="aficionado">Aficionado</option>
+                <option value="profesional">Prfesional</option>
+                <option value="otro">Otro</option>
+            </select>
+            
+            <fieldset>
+                <legend>Seleccione las oopciones de su interés</legend>
+                <label for="arte">Arte</label>
+                <input type="checkbox" name="arte" id="arte">
+                <label for="eco">Ecología</label>
+                <input type="checkbox" name="eco" id="eco">
+                <label for="espacio">Espacio</label>
+                <input type="checkbox" name="espacio" id="espacio">
+                <label for="">Medicina</label>
+                <input type="checkbox" name="med" id="med">
+                <label for="">Naturaleza</label>
+                <input type="checkbox" name="natu" id="natu">
+                <label for="tecno">Tecnología</label>
+                <input type="checkbox" name="tecno" id="tecno">
+            </fieldset>
+            
+            <label for="terms">Aceptar términos y condiciones</label>
+            <input type="checkbox" name="terms" id="terms">
+            
+            <input type="submit" value="Suscribirse">
+        </form>
+    </main>
+
+    <footer class="footer-flex">
+        <div>
+            <p class="f-seguinos">SEGUINOS</p>
+            <img
+                class="f-instagram"
+                width="50px"
+                height="50px"
+                src="./assets/img/inst-icon.png"
+                alt="Instagram"
+            />
+            <img
+                class="f-x"
+                width="70px"
+                height="50px"
+                src="./assets/img/x-icon.png"
+                alt="X"
+            />
+        </div>
+        <div class="f-condiciones">
+            <a href="./condiciones.html" rel="noopener noreferrer">CONDICIONES</a>
+        </div>
+    </footer>
+</body>
+</html>
