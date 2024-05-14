@@ -15,19 +15,19 @@
     <main>
         <form action="" method="get">
             <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre">
+            <input type="text" name="nombre" id="nombre" required>
             
             <label for="apellido">Apellido</label>
-            <input type="text" name="apellido" id="apellido">
+            <input type="text" name="apellido" id="apellido" required>
             
             <label for="email">Email</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" required>
             
             <label for="pass">Contraseña</label>
-            <input type="password" name="pass" id="pass">
+            <input type="password" name="pass" id="pass" required>
 
             <label for="lector">¿Con qué grupo de lectores se identifica más?</label>
-            <select name="lector" id="lector">
+            <select name="lector" id="lector" >
                 <option value="estudiante">Estudiante</option>
                 <option value="aficionado">Aficionado</option>
                 <option value="profesional">Prfesional</option>
@@ -35,7 +35,7 @@
             </select>
             
             <fieldset>
-                <legend>Seleccione las oopciones de su interés</legend>
+                <legend>Seleccione las opciones de su interés</legend>
                 <label for="arte">Arte</label>
                 <input type="checkbox" name="arte" id="arte">
                 <label for="eco">Ecología</label>
