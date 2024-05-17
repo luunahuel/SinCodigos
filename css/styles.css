@@ -184,7 +184,11 @@ footer {
 }
 
 .f-seguinos{
-    margin: auto 20px;
+    margin: 5px;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 2px 5px;
+    background-color: #aaa8;
 }
 
 .f-instagram {
@@ -210,6 +214,35 @@ footer {
 
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
+/*FORMULARIO SUSCRIPCION*/
+.form_Suscribete {
+    display:grid;
+    background-color: rgba(151, 148, 187, 0.5); 
+    box-shadow: 0 0 10px rgba(219, 215, 215, 0.5);
+    padding: 2px 5px;
+    border-radius: 2%;
+}
+
+.boton_Suscripcion{
+    font-size: 2rem;
+    border-radius: 6%;
+}
+
+.boton_Suscripcion:hover {
+    color: #ccc;
+    text-shadow: 3px 3px 3px #aaf;
+    font-size: 2rem;
+    background-image: url(../assets/img/backg.jpg);
+}
+
+.form_Suscribete input {
+    background-color: rgb(187, 183, 209);
+}
+.form_Suscribete select{
+    background-color: rgb(187, 183, 209);
+}
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
 
 
 /* DISEÑO RESPONSIVO */ /* DISEÑO RESPONSIVO */ /* DISEÑO RESPONSIVO */
@@ -236,3 +269,4 @@ footer {
     }
 }
 /* DISEÑO RESPONSIVO */ /* DISEÑO RESPONSIVO */ /* DISEÑO RESPONSIVO */
+
