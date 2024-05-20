@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TPI - {sC} - Suscribite</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header class="header-flex">
@@ -13,9 +14,9 @@
     </header>
 
     <main>
-        <form class="form_Suscribete" action="" method="get">
+        <form class="form_Suscribete" ction="" method="get" onsubmit="return validarFormulario()">
             <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre" required>
+            <input type="text" name="nombre" id="nombre" >
             
             <label for="apellido">Apellido</label>
             <input type="text" name="apellido" id="apellido" required>
@@ -79,5 +80,7 @@
             <a href="./condiciones.html" rel="noopener noreferrer">CONDICIONES</a>
         </div>
     </footer>
+   
+    
 </body>
 </html>
